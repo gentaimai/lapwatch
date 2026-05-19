@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LapWatch Pro</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #18212b;
+      --muted: #5f6b7a;
+      --border: #d9e0e8;
+      --accent: #0f6fff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #eef3fb 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    .page {
+      width: min(960px, calc(100% - 32px));
+      margin: 32px auto 64px;
+    }
+    .hero, .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(16, 24, 40, 0.05);
+    }
+    .hero { padding: 32px; margin-bottom: 24px; }
+    .card { padding: 28px; margin-bottom: 24px; }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.15;
+    }
+    h2 { margin-top: 0; font-size: 1.5rem; }
+    h3 { margin: 28px 0 10px; font-size: 1.05rem; }
+    p, ul { margin: 0 0 14px; }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color: var(--muted); }
+    .links a {
+      display: inline-block;
+      margin-right: 16px;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      word-break: break-all;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <h1>LapWatch Pro</h1>
+      <p class="muted">Stopwatch app for iPhone with hardware volume-button control, lap history, and CSV export.</p>
+    </section>
+
+    <section class="card" lang="en">
+      <h2>English</h2>
+      <p>LapWatch Pro is a stopwatch app designed for quick lap timing on iPhone. Use the iPhone hardware volume buttons to start, stop, and record laps. Saved sessions can be reviewed later and exported as CSV.</p>
+      <div class="links">
+        <a href="/support.html">Support</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </div>
+      <h3>app-ads.txt</h3>
+      <p class="mono">google.com, pub-6238004847920381, DIRECT, f08c47fec0942fa0</p>
+    </section>
+
+    <section class="card" lang="ja">
+      <h2>日本語</h2>
+      <p>LapWatch Pro は、iPhone の物理音量ボタンで操作できるストップウォッチアプリです。ラップ記録、履歴保存、CSV エクスポートに対応しています。</p>
+      <div class="links">
+        <a href="/support.html">サポート</a>
+        <a href="/privacy.html">プライバシーポリシー</a>
+      </div>
+      <h3>app-ads.txt</h3>
+      <p class="mono">google.com, pub-6238004847920381, DIRECT, f08c47fec0942fa0</p>
+    </section>
+  </main>
+</body>
+</html>
